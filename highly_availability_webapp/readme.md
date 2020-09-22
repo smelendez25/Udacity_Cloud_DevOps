@@ -25,7 +25,7 @@ Bonus points if you add http:// in front of the load balancer DNS Name in the ou
 ### Starter Code
 You will find starter code for the project in the .yaml file, also located in the Resources section of the left sidebar of this page.
 
-### Architecture
+## Architecture
 ![Architecture](./infrastructure-diagram.png)
 
 ### Files included:
