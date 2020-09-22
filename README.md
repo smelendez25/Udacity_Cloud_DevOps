@@ -6,7 +6,7 @@ Operationalize infrastructure at scale and deliver applications and services at 
 ### Projects:
 
 - [Deply static website on AWS](./static-website)
-- [Deploy a high-availability website app using CloudFormation](./highly-available-website)
+- [Deploy a high-availability website app using CloudFormation](./highly_availability_webapp)
 - [Jenkins pipeline on AWS](./jenkins-pipeline-aws)
 - [Operationalize a Machine Learning Microservice API](./microservices)
 - [Capstone project: TBD](./capstone)
