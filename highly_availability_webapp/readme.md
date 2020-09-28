@@ -12,13 +12,13 @@ your private subnets. The launch configuration will be used by an auto-scaling g
 
 ### Files included:
 
-1 Network.yaml
-2 Network-params.json
-3 Services.yaml 
-4 Services-params.json
-5 Run-networks.sh
-6 Run-services.sh
-7 Diagram.png
+- Network.yaml
+- Network-params.json
+- Services.yaml 
+- Services-params.json
+- Run-networks.sh
+- Run-services.sh
+- Diagram.png
 
 ### Running the project:
 
