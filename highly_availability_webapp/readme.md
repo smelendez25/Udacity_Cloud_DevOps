@@ -4,11 +4,10 @@ You have been tasked with deploying the application, along with the necessary su
 This needs to be done in an automated fashion so that the infrastructure can be discarded as soon as the testing team finishes their tests and gathers their results.
 
 ## Project Requirements
-Create a Launch Configuration in order to deploy four servers, two located in each of
-your private subnets. The launch configuration will be used by an auto-scaling group. You'll need two vCPUs and at least 4GB of RAM. The Operating System to be used is Ubuntu 18. So, choose an Instance size and Machine Image (AMI) that best fits this spec. Be sure to allocate at least 10GB of disk space so that you don't run into issues.
+Create a Launch Configuration in order to deploy four servers, two located in each of your private subnets. The launch configuration will be used by an auto-scaling group. You'll need two vCPUs and at least 4GB of RAM. The Operating System to be used is Ubuntu 18.
 
-## Architecture
-![Architecture](./Diagram.png)
+## Diagram
+![Architecture](./Udagram.png)
 
 ### Files included:
 
@@ -18,15 +17,23 @@ your private subnets. The launch configuration will be used by an auto-scaling g
 - Services-params.json
 - Run-networks.sh
 - Run-services.sh
-- Diagram.png
+- Udagram.png
+- It_works.png
 
 ### Running the project:
 
 1. Execute network infrastructure stack.
-  Usage: run-networks.sh create
+  Use the file run-networks.sh create
 
 2. Once step 1 is succesfully completed, execute services infrastructure stack
-  Usage: services.yaml create
+  Use the file services.yaml create
 
 ### Output
 Udagram website URL.
+![It Works](./It_works.PNG)
+
+### References
+
+[1] https://github.com/Houlis-Udacity-Nanodegrees/Deploy-a-High-Availability-Web-App-Using-CloudFormation
+[2] https://github.com/mehmetincefidan/Deploy-a-High-Availability-Web-App-Using-CloudFormation
+[3] https://github.com/maxgherman/udacity-cloud-devops-engineer/tree/master/highly-available-website
