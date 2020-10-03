@@ -32,7 +32,7 @@ Create a Launch Configuration in order to deploy four servers, two located in ea
 ![It Works](./It_works.png)
 
 ### References
-Special thanks to these folks, their design proposal were instrumental to complete this project.
+Special thanks to these folks, their design proposals were instrumental to complete this project.
 
 1. https://github.com/Houlis-Udacity-Nanodegrees/Deploy-a-High-Availability-Web-App-Using-CloudFormation
 2. https://github.com/mehmetincefidan/Deploy-a-High-Availability-Web-App-Using-CloudFormation
