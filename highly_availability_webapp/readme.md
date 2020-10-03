@@ -29,7 +29,6 @@ Create a Launch Configuration in order to deploy four servers, two located in ea
   Use the file services.yaml create
 
 ### Output
-Udagram website URL.
 ![It Works](./It_works.PNG)
 
 ### References
